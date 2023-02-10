@@ -1,0 +1,79 @@
+.d-flex{
+    margin-right: 50px;
+}
+
+.navbar{
+    padding: 20px 40px;
+    background-color: #000000;
+}
+
+.navbar-brand{
+    padding-top: 0px;
+    margin-right: 40px;
+    
+}
+
+.navbar-collapse{
+    margin-left: 35px;
+}
+
+a{
+    color: #FFF;
+}
+
+a:hover{
+    transition: 200ms ease-in-out;
+}
+
+.form-control{
+    margin-right: 7px;
+    padding: 0px 5px;
+    width: 200px;
+}
+
+.navbar-toggler{
+    color: #FFF;
+}
+
+.cart-icon{
+    margin-top: 3px;
+    width: 1.1em;
+    font-size: 1.1em;
+}
+
+.navbar-brand:hover{
+    color: #FFF;
+}
+
+.nav-link{
+    margin-right: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: #0074F0;
+}
+
+.nav-link:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0079fa;
+    transform-origin: bottom center;
+    transition: transform 200ms ease-in-out;
+
+}
+
+.nav-link:hover::after{
+    transform: scaleX(1);
+    transition: 400ms ease-in-out;
+}
+
+.cart:hover::after{
+    transform: scaleX(0);
+}
