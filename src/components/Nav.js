@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaShoppingCart } from "react-icons/fa";
-import { IconBase } from 'react-icons/lib/esm/iconBase';
+// import { IconBase } from 'react-icons/lib/esm/iconBase';
 import '../styles/nav.css';
 
 
